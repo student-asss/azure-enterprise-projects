@@ -19,4 +19,5 @@ This repository contains 11 real-world Azure enterprise scenarios designed to de
 - Monitoring strategy
 - Governance and policy examples
 - Real-world explanations and documentation
+
 These projects were built using Azure Free Tier resources where possible.

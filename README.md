@@ -1,7 +1,7 @@
-# azure-enterprise-projects
+azure-enterprise-projects
 This repository contains 11 real-world Azure enterprise scenarios with complete architecture, security, governance, networking, DevOps, and cost‑optimization examples.
 
-# Azure Enterprise Projects (Scenarios 1–11)
+Overview - Azure Enterprise Projects (Scenarios 1–11)
 This repository contains 11 real-world Azure enterprise scenarios designed to demonstrate:
 - Production-grade architectures
 - Dev environment design

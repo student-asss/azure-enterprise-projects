@@ -11,7 +11,7 @@ This repository contains 10 real-world Azure enterprise scenarios designed to de
 - Scenario 6 – Observability & Security Monitoring
 - Scenario 7 – DevOps Platform (CI/CD + IaC + App Deployment + Security Gates)
 - Scenario 8 – FinOps + Cost Management
-- Scenario 9 - Security Operations / Sentinel SIEM
+- Scenario 9 - Security Operations (Sentinel SIEM)
 - Scenario 10 – Zero Trust / Identity Governance
 
 # Each scenario includes:

@@ -1,1 +1,40 @@
+name: "API CI"
+
+on:
+  push:
+    paths:
+      - "app/api/**"
+  pull_request:
+    paths:
+      - "app/api/**"
+
+jobs:
+  build-test-security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Restore
+        run: dotnet restore app/api
+
+      - name: Build
+        run: dotnet build app/api --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test app/api --no-build --configuration Release
+
+      - name: CodeQL Init
+        uses: github/codeql-action/init@v3
+        with:
+          languages: csharp
+
+      - name: CodeQL Analyze
+        uses: github/codeql-action/analyze@v3
 

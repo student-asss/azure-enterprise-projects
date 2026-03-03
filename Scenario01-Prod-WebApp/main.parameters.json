@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "norwayeast"
+    },
+    "vnetName": {
+      "value": "vnet-s01"
+    },
+    "nsgName": {
+      "value": "nsg-web"
+    },
+    "aspName": {
+      "value": "asp-s01-free"
+    },
+    "webAppName": {
+      "value": "webapp-s01-prod"
+    },
+    "workspaceName": {
+      "value": "law-s01"
+    },
+    "appInsightsName": {
+      "value": "appi-s01"
+    },
+    "actionGroupName": {
+      "value": "ag-s01"
+    },
+    "smartDetectorName": {
+      "value": "failure-anomalies"
+    },
+    "metricAlertName": {
+      "value": "high-traffic-alert"
+    },
+    "networkWatcherName": {
+      "value": "NetworkWatcher_norwayeast"
+    },
+    "alertEmail": {
+      "value": "your-email@example.com"
+    }
+  }
+}

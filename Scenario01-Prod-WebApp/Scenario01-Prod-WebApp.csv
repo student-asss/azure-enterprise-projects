@@ -1,0 +1,9 @@
+﻿NAME,TYPE,LOCATION,RESOURCE LINK
+"appi-s01","Application Insights","Sweden Central","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/microsoft.insights/components/appi-s01"
+"Application Insights Smart Detection","Action group","Global","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/microsoft.insights/actiongroups/Application Insights Smart Detection"
+"asp-s01-free","App Service plan","Sweden Central","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/Microsoft.Web/serverFarms/asp-s01-free"
+"Failure Anomalies - appi-s01","Smart detector alert rule","Global","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/microsoft.alertsmanagement/smartDetectorAlertRules/Failure Anomalies - appi-s01"
+"high-traffic-alert","Metric alert rule","Global","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/microsoft.insights/metricalerts/high-traffic-alert"
+"nsg-web","Network security group","Norway East","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/Microsoft.Network/networkSecurityGroups/nsg-web"
+"vnet-s01","Virtual network","Norway East","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/Microsoft.Network/virtualNetworks/vnet-s01"
+"webapp-s01-prod","App Service","Sweden Central","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s01-prod-webapp/providers/Microsoft.Web/sites/webapp-s01-prod"

@@ -1,0 +1,3 @@
+﻿NAME,TYPE,LOCATION,RESOURCE LINK
+"azure-donitor-agent","Data collection rule","West Europe","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s06-monitoring/providers/Microsoft.Insights/dataCollectionRules/azure-donitor-agent"
+"law-core-monitoring","Log Analytics workspace","West Europe","https://portal.azure.com#resource/subscriptions/890f64ef-3922-400d-9556-def4c79f9bab/resourceGroups/rg-s06-monitoring/providers/Microsoft.OperationalInsights/workspaces/law-core-monitoring"
